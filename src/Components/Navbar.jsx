@@ -9,9 +9,9 @@ function Navbar() {
   let [open, setOpen] = useState(false);
   return (
     <header className='Navbar md:shadow-md bg-gradient-to-b from-dark-gray to-light-gray text-white py-5'>
-      <nav className='md:flex items-center justify-between'>
+      <nav className='md:flex md:max-w-[1440px] md:mx-auto items-center justify-between '>
         <div className='logo'>
-          <h3 className='font-bold mx-16 font-heading'>
+          <h3 className='font-bold ml-8 font-heading'>
             <a href='/#home'>Code-Ed</a>
           </h3>
         </div>
@@ -22,7 +22,7 @@ function Navbar() {
           <ion-icon name={open ? "close-outline" : "menu-outline"}></ion-icon>
         </div>
         <div
-          className={`Menu mr-16 md:flex md:items-center md:pb-0 pb-12 absolute md:static w-full md:w-auto 
+          className={`Menu mr-16 md:flex md:items-center md:pb-0 pb-12 pl-9 md:pl-0 absolute md:static w-full md:w-auto 
           bg-gradient-to-b from-light-gray to-dark-gray md:z-auto z-[-1] md:bg-none left-0 transition-all duration-500 ease-in ${
             open
               ? "top-[65px] opacity-100"
