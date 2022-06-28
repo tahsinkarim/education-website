@@ -12,7 +12,14 @@ export default class Footer extends Component {
       <footer className='bg-gradient-to-b from-light-gray to-dark-gray text-white'>
         <div className='Container ml-4 pt-20 px-8 flex flex-col md:flex-row md:justify-between md:items-center gap-8 md:max-w-[1024px] md:mx-auto'>
           <div className='flex flex-col gap-4'>
-            <h2 className='text-xl font-bold mb-4'>Code-Ed</h2>
+            <h2 className='text-xl font-bold mb-4'>
+              <a
+                className='hover:text-[#BB110F] transition-all duration-300'
+                href='/#home'
+              >
+                Code-Ed
+              </a>
+            </h2>
             <p>
               <span className='mr-2'>
                 <ion-icon name='location'></ion-icon>
