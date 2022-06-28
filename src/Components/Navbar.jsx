@@ -11,7 +11,7 @@ function Navbar() {
     <header className='Navbar md:shadow-md bg-gradient-to-b from-dark-gray to-light-gray text-white py-5'>
       <nav className='md:flex md:max-w-[1440px] md:mx-auto items-center justify-between '>
         <div className='logo'>
-          <h3 className='font-bold ml-8 font-heading'>
+          <h3 className='font-bold ml-8 font-heading hover:text-[#BB110F] transition-all duration-300'>
             <a href='/#home'>Code-Ed</a>
           </h3>
         </div>
@@ -31,7 +31,10 @@ function Navbar() {
         >
           <ul className='gap-16 text-sm md:flex md:items-center'>
             {Links.map((link) => (
-              <li key={link.name} className='md:my-0 my-7'>
+              <li
+                key={link.name}
+                className='md:my-0 my-7 hover:text-[#BB110F] transition-all duration-300'
+              >
                 <a href={link.link}>{link.name}</a>
               </li>
             ))}
