@@ -10,7 +10,7 @@ export default class Features extends Component {
       { name: "CLEAN CODE", link: "/#", img: Debug },
     ];
     return (
-      <div className='Features px-8 py-12 pt-20 md:max-w-[1440px] mx-auto'>
+      <div className='Features px-8 py-12 pt-20 md:max-w-[1280px] mx-auto'>
         <h1 className='text-3xl md:text-4xl font-bold text-center'>Features</h1>
         <p className='text-center mt-4 mb-8 md:w-[548px] md:mx-auto'>
           Enjoy our features suitable for your programming lessons. These

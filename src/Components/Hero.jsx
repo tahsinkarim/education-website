@@ -4,7 +4,7 @@ import Image from "../images/hero.png";
 export default class Hero extends Component {
   render() {
     return (
-      <div className='Hero md:flex flex-row-reverse items-center justify-center px-8 py-12 md:max-w-[1440px] sm:px-16 md:px-8 md:mx-auto -z-10'>
+      <div className='Hero md:flex flex-row-reverse items-center justify-center px-8 py-12 md:max-w-[1280px] sm:px-16 md:px-8 md:mx-auto -z-10'>
         <div className='flex-1'>
           <img src={Image} alt='Programming' />
         </div>
